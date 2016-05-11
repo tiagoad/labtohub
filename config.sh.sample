@@ -1,0 +1,25 @@
+# gitlab user
+LABUSER=""
+
+# github user
+HUBUSER=""
+
+# github password
+HUBPASS=""
+
+# prefix to add before the repo description
+# unset to have no prefix
+MIRRORPREFIX="[mirror] "
+
+# repositories to mirror
+LABREPOS=(
+  "a"
+  "b"
+)
+
+# directory to work on (must be absolute path, or use ~)
+TMP_DIR="/tmp/labtohub"
+
+# whether to keep the temporary directory or not
+# second runs are faster if it's kept
+DELETE_WORKSPACE="ON"
